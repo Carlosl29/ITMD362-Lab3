@@ -203,6 +203,26 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
+body {
+	text-align: center;
+	background-color: #555555;
+	display: inline-block;
+	width: 70%;
+	margin-left: 10%;
+	padding: 5%;
+}
+
+input {
+	border: none;
+	background-color: #939393;
+	width: auto;
+}
+#email {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #737373;
+}
+
+
 
 /* ===== MODULAR STYLES ===== */
 
