@@ -205,7 +205,6 @@ label {
 /* ===== LAYOUT STYLES ====== */
 body {
 	text-align: center;
-	background-color: #555555;
 	display: inline-block;
 	width: 70%;
 	margin: 10%;
@@ -221,6 +220,11 @@ h1 {
 	line-height: 1em;
 }
 
+form {
+	border-radius: 6px;
+	background-color: #555555;
+	padding: .5em;
+}
 p {
 	font-family: 'Fahkwang', sans-serif;
 	font-size: .75em;
