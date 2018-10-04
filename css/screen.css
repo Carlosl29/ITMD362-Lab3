@@ -208,32 +208,54 @@ body {
 	background-color: #555555;
 	display: inline-block;
 	width: 70%;
-	margin-left: 10%;
-	padding: 5%;
+	margin: 10%;
+	padding: 5%;	
 }
 
 h1 {
 	font-family: 'Arvo', serif;
-	font-size: 2em;
+	font-size: 1.9em;
 	padding-top: .15em;
 	padding-bottom: .5em;
+
+	line-height: 1em;
 }
 
 p {
 	font-family: 'Fahkwang', sans-serif;
-	font-size: 1em;
-	padding: .25em;
+	font-size: .75em;
 }
 
 input {
 	border: none;
 	background-color: #939393;
 	width: auto;
+	border-radius: 6px;
 }
+
+
 
 #email {
 	font-family: 'Josefin Sans', sans-serif;
 	color: #737373;
+	width: 200px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+#input-age-verification {
+	margin-top: 1em;
+	background-color: #848484; 
+	padding-bottom: .25em;
+	border-radius: 6px;
+	font-family: 'Fahkwang', sans-serif;
+	font-size: .75em;
+	font-weight: bold;
+}
+
+#input-submit {
+	padding: 1em;
+
 }
 
 
